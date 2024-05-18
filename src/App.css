@@ -1,0 +1,24 @@
+
+@font-face {
+  font-family: 'Sora-Bold';
+  src: url('./Sora-VariableFont_wght.ttf') format('ttf'),
+       url('./Sora-VariableFont_wght.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+.text{
+  color: rgb(18, 235, 18);
+  font-family: silk serif;
+  
+}
+
+ 
+/* Gradient Color: linear-gradient(90deg, #F87516 0%, #5E11FF 100%); */
+
+
+.text_color{
+  color: #fff;
+  font-family: "Sora-Bold" ;
+  
+
+}
