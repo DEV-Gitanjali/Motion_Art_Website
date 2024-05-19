@@ -2,6 +2,8 @@ import'../App.css';
 import img11 from "../assets/img11.png";
 import img10 from "../assets/img10.png";
 import img8 from "../assets/img8.png";
+import CardGroup from './CardGroup';
+
 
 
 
@@ -40,10 +42,10 @@ const Cards = () => {
                 <img src={img8} alt="loaded "  className='m-auto mt-10 '/>
         </div>
             
-
             
         
-           
+      <CardGroup/>
+        
     </div>
   )
 }

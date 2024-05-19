@@ -1,8 +1,9 @@
-import React from 'react'
+
 import Navbar from './components/Navbar'
 import Header from './components/Header';
 import Profile from './components/Profile';
 import Cards from './components/Cards';
+
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
       <Header/>
       <Profile/>
       <Cards/>
+      
       
     </div>
       
