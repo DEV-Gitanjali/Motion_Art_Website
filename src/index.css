@@ -2,3 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+.text_color{
+    color: #fff;
+    font-family: "Sora-Bold" ;
+    
+    
+} 
+
+.purchase_button{
+     font-size: 20px;
+     
+}
+h1{
+    margin-bottom: 10px;
+    
+}
+
+.paragraph_area{
+    margin-left: 25em;
+    margin-top: 2rem;
+}
+
+
+
+.text_gradient{
+    font-size: larger;
+    font-weight: 500;
+
+   
+    background:linear-gradient(  #F87516 , #5E11FF  );
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+
+

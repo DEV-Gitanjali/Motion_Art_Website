@@ -5,7 +5,7 @@ import Header from './components/Header';
 const App = () => {
  
   return (
-    <div > 
+    <div className='bg-[#0E0F1A] ' > 
       <Navbar/>
       <Header/>
     </div>
