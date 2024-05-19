@@ -18,7 +18,7 @@ export default function Navbar( ) {
             <img  className="w-40"src={market}  alt="svg"/>
             
           </Typography>
-          <Button className='bg-lime-600' color="inherit">Buy Now</Button>
+          <Button className='bg-lime-600' color="inherit">Buy now</Button>
 
         </Toolbar>
       </AppBar> }

@@ -33,20 +33,22 @@ const Header = () => {
            ultimate solution for seamlessly integrating captivating animations<br/> 
            into your Website.</p>
         </div>
+        </div>
 
+);
+};
+export default Header;
 
 
          
 
           
-         
 
 
 
-        </div>
+
 
      
-    );
 
      
 
@@ -54,6 +56,3 @@ const Header = () => {
 
       
       
-};
-
-export default Header;

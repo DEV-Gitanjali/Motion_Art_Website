@@ -14,7 +14,7 @@
 } 
 
 .app_method{
-    height: 300rem;
+    height:fit-content;
     
 }
     
@@ -24,6 +24,9 @@
      font-size: 20px;
      
 }
+
+    
+
 h1{
     margin-bottom: 10px;
     
