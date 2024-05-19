@@ -18,6 +18,13 @@
   background: linear-gradient( #0F0821 ,  #201930 );
   border: 0.5px solid rgb(58, 57, 57);
 }
+ .cards_design1{
+  width: 50em;
+  height: 18em;
+  background: linear-gradient( #0F0821 ,  #201930 );
+  margin: auto;
+  border: 0.5px solid rgb(58, 57, 57);
+}
 
  
 
