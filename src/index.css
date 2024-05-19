@@ -2,12 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    
+}
 .text_color{
     color: #fff;
     font-family: "Sora-Bold" ;
-    
-    
 } 
+
+.app_method{
+    height: 100rem;
+    
+}
+    
+    
 
 .purchase_button{
      font-size: 20px;
@@ -29,19 +40,32 @@ justify-content: center;
 
 }
 
+.section_text{
+    color: #fff;
+}
+
 
 
 .text_gradient{
     font-size: larger;
     font-weight: 500;
+    background:linear-gradient(90deg,  #F87516 0%, #5E11FF 100% );
 
-   
-    background:linear-gradient(  #F87516 , #5E11FF  );
-    
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+   
+    
+    
+}
+
+.button_effect{
+    color: #fff;
+    background:linear-gradient( 90deg, #5E11FF 0% ,  #F87516 100% );
+    margin-top: 2rem;
+    
+    
 }
 
 
