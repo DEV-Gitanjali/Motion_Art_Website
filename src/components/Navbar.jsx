@@ -11,7 +11,7 @@ import market from "../assets/market.svg";
 export default function Navbar( ) {
   return (
     <Box sx={{ flexGrow: 1 }} >
-      {<AppBar position="static" className='bg-[#262626]'>
+      {<AppBar position="static" className='bg-[#262626] fixed'>
         <Toolbar>
 
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>

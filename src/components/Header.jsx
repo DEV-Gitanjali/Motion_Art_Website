@@ -5,7 +5,7 @@ import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
-    <div className="  h-screen ">
+    <div className=" pt-10 ">
         <div className="top_header">
       <div className="p-10 flex  justify-between  ">
       <img src={logo} alt=" loaded"/>
