@@ -6,11 +6,11 @@ const CardGroup = () => {
   return (
     <div>
         
-         <h1 className="text-white text-4xl font-medium  text-center mt-20">An All-Round Plugin with <br/> Powerful Features </h1>
+         <h1 className="text-white text-4xl font-medium  text-center mt-20 ">An All-Round Plugin with <br/> Powerful Features </h1>
        <p className='text-center align-center text-lg text-zinc-400 mt-10'>Whether you're a seasoned web designer or just starting out,Motion Art for<br/> Elementor seamlessly integrates with the Elementor platform, providing you<br/> with a seamless and intuitive experience.</p>
 
        
-       <div className='flex mt-10'>
+       <div className='flex mt-10 '>
         <div className='group_Cards shadow-white  font-medium rounded-3xl '>
                 <img src={img9} alt="loaded "  className=''/>
             <h1 className='text-2xl ml-7 mt-5'>Light Weight</h1>

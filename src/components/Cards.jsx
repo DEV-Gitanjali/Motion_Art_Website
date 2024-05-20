@@ -10,7 +10,7 @@ import CardGroup from './CardGroup';
 
 const Cards = () => {
   return (
-    <div className='text-white '>
+    <div className='text-white z-50'>
       <h1 className='text-center mt-28 text-5xl  font-medium mt-28'>Apply  On Any Section Or Enable<br/> For Whole Page</h1>
 
 
