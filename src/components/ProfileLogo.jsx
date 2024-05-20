@@ -6,9 +6,9 @@ import  img3 from "../assets/img3.png";
 
 const ProfileLogo = () => {
   return (
-    <div className="profile_logo flex mt-24 gap-52 ">
+    <div className="profile_logo flex mt-24 lg:gap-52  flex-col md:flex-row md:mt-24 md:gap-16 gap-10 md:px-0">
     
-      <div className="flex">
+      <div className="flex items-center">
         <img src={img2} alt="img2 loaded" />
             
         <span className="ml-3 mt-5">

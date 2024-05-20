@@ -25,7 +25,7 @@ const Header = () => {
          </div>
         </div>
  
-        <div className="paragraph_area text-zinc-500 font-medium  text-base sm:text-xl md:text-lg lg:text-xl px-4 mt-10 md:px-10">
+        <div className="paragraph_area text-zinc-500 font-medium  text-base sm:text-lg md:text-xl lg:text-xl px-4 mt-10 md:px-10 mt-10">
         <p  >Unleash the power of creativity With Motion Artfor Element-your<br/>
            ultimate solution for seamlessly integrating captivating animations<br/> 
            into your Website.</p>
