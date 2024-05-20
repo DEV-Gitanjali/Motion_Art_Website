@@ -30,7 +30,7 @@ h1{
 }
 
 .paragraph_area{
-    margin-left: 24em;
+    /* margin-left: 24em; */
     margin-top: 2em;
 }
 
@@ -63,6 +63,12 @@ justify-content: center;
     
     
 }
+/* @media screen and (max-width: 1200) {
+    .app_method{
+        height: 300rem;
+    }
+} */
+
 
 
 
