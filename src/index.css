@@ -15,18 +15,14 @@
 
 .app_method{
     height: 220rem;
+    overflow: hidden;
+    margin: 0px;
 }
-
-    
-    
-    
 
 .purchase_button{
      font-size: 20px;
      
 }
-
-    
 
 h1{
     margin-bottom: 10px;
@@ -34,8 +30,8 @@ h1{
 }
 
 .paragraph_area{
-    margin-left: 25em;
-    margin-top: 2rem;
+    margin-left: 24em;
+    margin-top: 2em;
 }
 
 .profile_logo{
@@ -48,8 +44,6 @@ justify-content: center;
     color: #fff;
 }
 
-
-
 .text_gradient{
     font-size: larger;
     font-weight: 500;
@@ -58,9 +52,7 @@ justify-content: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
-   
-    
+    text-fill-color: transparent; 
     
 }
 
