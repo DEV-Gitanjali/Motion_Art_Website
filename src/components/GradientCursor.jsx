@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useRef } from 'react'
 import gsap from 'gsap';
-
+// this is color section
 const colors = [
     "#c32d27",
     "#f5c63f",
@@ -18,7 +18,7 @@ export default function GradientCursor({isActive}) {
     const delay = isActive ? 0.015 : 0.005
 
     const lerp = (x, y, a) => x * (1 - a) + y * a;
-
+// this code for manage cursor move
     const manageMouseMove = (e) => {
         const { clientX, clientY } = e;
     
@@ -27,7 +27,7 @@ export default function GradientCursor({isActive}) {
             y: clientY
         }
     }
-
+// this code for how animate cursor
     const animate = () => {
         const { x, y } = delayedMouse.current;
 
@@ -47,7 +47,7 @@ export default function GradientCursor({isActive}) {
             gsap.set(circle, {x, y, xPercent: -50, yPercent: -50})
         })
     }
-
+    // this code for mousemove
     useEffect( () => {
         animate();
         window.addEventListener("mousemove", manageMouseMove);
@@ -58,6 +58,7 @@ export default function GradientCursor({isActive}) {
     }, [isActive])
 
     return (
+        // this code for how add multiple color in cursor
         <div className='relative h-screen'>
             {
                 [...Array(4)].map((_, i) => {

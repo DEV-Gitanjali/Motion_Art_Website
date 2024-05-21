@@ -39,6 +39,16 @@
 
 }
 
- 
 
-
+@media (max-width:620) {
+  .cards_design{
+      height: 10em;
+      width: 12em;
+  }
+}
+@media (max-width:480) {
+  .cards_design{
+      height: 5em;
+      width: 8em;
+  }
+}
