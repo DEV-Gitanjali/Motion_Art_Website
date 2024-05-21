@@ -17,7 +17,7 @@ const Header = () => {
             <h5 className="text_color text-lg sm:text-sm lg:text-lg mt-2 ">With Motion Art<br/> Effect</h5>
           </div>
 
-         <div className=" text-white text-left font-semibold lg:text-7xl  text-4xl md:text-5xl  ">
+         <div className=" text-white text-left font-semibold lg:text-7xl  text-4xl md:text-5xl ">
           <h1>Attract Your</h1>
           <h1>Visitors Attenstion</h1>
           <h1>With Colorful</h1>

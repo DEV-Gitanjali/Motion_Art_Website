@@ -14,7 +14,7 @@ const Cards = () => {
       <h1 className='text-center md:mt-28 lg:text-5xl  text-3xl md:text-4xl font-medium mt-12'>Apply  On Any Section Or Enable<br/> For Whole Page</h1>
 
 
-      <div className='flex  md:mt-20 gap-10 lg:gap-4 md:mt-20 flex-col lg:flex-row px-4 md:px-20 '>
+      <div className='flex  md:mt-20 gap-10 lg:gap-4 md:mt-20 flex-col lg:flex-row px-4 md:px-20  '>
         <div className='cards_design shadow-white  font-medium rounded-3xl p-6'>
             <h1 className='md:text-2xl mb-4 text-xl '>Apply On Sectcion</h1>
             <p className='md:text-lg  text-base  mb-4 text-zinc-400 m-7'>Apply on section is a game-changer, offering an unparalleled way to manage<br/>
