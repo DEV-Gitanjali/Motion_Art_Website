@@ -14,7 +14,7 @@
 } 
 
 .app_method{
-    height: 225rem;
+    /* height: 223rem; */
     overflow: hidden;
     margin: 0px;
 }
@@ -63,11 +63,7 @@ justify-content: center;
     
     
 }
-/* @media screen and (max-width: 1200) {
-    .app_method{
-        height: 300rem;
-    }
-} */
+
 
 
 

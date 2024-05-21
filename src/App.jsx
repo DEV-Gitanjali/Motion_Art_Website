@@ -14,7 +14,7 @@ const App = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div onMouseOver={() => {setIsActive(true)}} onMouseLeave={() => {setIsActive(false)}}  className='app_method bg-[#0E0F1A] overflow-hidden '  > 
+    <div onMouseOver={() => {setIsActive(true)}} onMouseLeave={() => {setIsActive(false)}}  className='app_method bg-[#0E0F1A] '  > 
     
 
       <Navbar/>

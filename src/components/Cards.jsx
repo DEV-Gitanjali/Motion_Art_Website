@@ -34,8 +34,8 @@ const Cards = () => {
 
       </div>
 
-        <div className='cards_design1 shadow-white  font-medium rounded-3xl lg:mt-32 p-6 mt-10  md:ml-auto'>
-            <h1 className='md:text-2xl text-center  text-xl mb-4'>Supported by All Popular Browsers</h1>
+        <div className='cards_design1 shadow-white  font-medium rounded-3xl lg:mt-32 p-6 mt-10  lg:mt-32  lg:w-1/2 lg:h-72  md:w-96 md:h-56 lg:ml-auto '>
+            <h1 className='md:text-2xl text-center  text-xl mb-6'>Supported by All Popular Browsers</h1>
             <p className='md:text-lg text-base text-zinc-400 text-center mb-4'>
                 Rest assured, Motion Art is designed to be compatible<br/>  with all major web browers.
             </p>
